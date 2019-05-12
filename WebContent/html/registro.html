@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RAFAGRAM</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="../css/style.css" class="css">
+</head>
+<body>
+<div class="container">
+<header>
+	<h1>RafaGram</h1>
+</header>
+<div class="row">
+<section class="col-12 col-md-6">
+	
+	
+</section>
+<aside class="col-12 col-md-6">
+		<!-- Default form login -->
+	<!-- Default form register -->
+	<form class="text-center border border-light p-5" action="../controllerServlet" method="POST">
+		<p class="text-right">Ya tiene cuenta <a href="index.html" >Ingresa</a>
+		</p>
+		
+	    <p class="h4 mb-4">Registrarse</p>
+
+	    <div class="form-row mb-4">
+	        <div class="col">
+	            <!-- First name -->
+	            <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombres">
+	        </div>
+	        <div class="col">
+	            <!-- Last name -->
+	            <input type="text" id="apellido" name="apellido" class="form-control" placeholder="Apellidos">
+	        </div>
+	    </div>
+		
+		<!-- E-mail -->
+	    <input type="text" id="usuario" name="usuario" class="form-control mb-4" placeholder="Nombre de usuario">
+
+	    <!-- E-mail -->
+	    <input type="email" id="email" name="email" class="form-control mb-4" placeholder="E-mail">
+
+	    <!-- Password -->
+	    <input type="password" id="password" name="password" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+	    <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+	        Minimo 5 caracteres y un digito
+	    </small>
+
+	    
+
+	    <!-- Sign up button -->
+	    <button class="btn btn-info my-4 btn-block" type="submit">Registrarme</button>
+
+
+	    <hr>
+
+	    <!-- Terms of service -->
+	    <p>Has clic en
+	        <em>Registarme</em> para aceptar
+	        <a href="" target="_blank" data-toggle="modal" data-target="#exampleModalScrollable">terminos y condiciones del servicio</a>
+</p>
+	</form>
+	<!-- Default form register -->
+	</aside>
+
+</div>
+
+</div>
+<footer class="bg-dark rounded-top text-center">
+  <div class="container py-2">
+    <p class="text-white my-2">
+      Carlos Rene Angarita Sanguino
+    </p>
+  </div>
+</footer>
+<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">Terminos y condiciones</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Aceptamos proporcionarte el Servicio de AngieGram, que incluye todos los productos, las funciones, las aplicaciones, los servicios, las tecnologías y el software que ofrecemos para cumplir la misión de AngieGram: acercarte a las personas y cosas que te encantan. El Servicio se compone de los siguientes aspectos (el "Servicio"):
+<ul>
+	<li><span class="font-weight-bolder">Ofrecer oportunidades personalizadas para crear, conectar, comunicar, descubrir y compartir.</span>
+	Cada persona es distinta. Queremos fortalecer las relaciones por medio de experiencias compartidas que realmente te interesen. Por lo tanto, creamos sistemas que intentan entender quiénes o qué cosas te interesan y les interesan a los demás, y usamos esa información para ayudarte a crear, encontrar, unir y compartir experiencias que te resulten relevantes. Parte de esto consiste en destacar el contenido, las funciones, las ofertas y las cuentas que te pueden interesar, y ofrecerte formas de experimentar Instagram en función de lo que tú y otras personas hacen tanto dentro como fuera de Instagram.
+	</li>
+	<li>
+	<span class="font-weight-bolder">Fomentar un ambiente positivo, inclusivo y seguro.</span >
+	Desarrollamos y usamos herramientas, y ofrecemos recursos a los miembros de nuestra comunidad que contribuyen a que estos vivan experiencias positivas e inclusivas, incluso cuando creemos que pueden necesitar ayuda. También contamos con equipos y sistemas cuyo trabajo es combatir el abuso y las violaciones de nuestras Condiciones y políticas, así como combatir comportamientos perjudiciales y engañosos. Usamos toda la información que tenemos, incluida la tuya, para proteger nuestra plataforma. Asimismo, es posible que compartamos información sobre usos indebidos o contenido perjudicial con otras empresas de Facebook o con las fuerzas del orden. Obtén más información en la Política de datos.
+	</li>
+	<li>
+	<span class="font-weight-bolder">Desarrollar y usar tecnologías que nos ayuden a respaldar continuamente a nuestra comunidad en constante crecimiento.</span >
+	Organizar y analizar información de nuestra creciente comunidad es central para nuestro Servicio. Gran parte de nuestro Servicio consiste en crear y usar tecnologías de vanguardia que nos ayuden a personalizar, proteger y mejorar nuestro Servicio a gran escala para una amplia comunidad internacional. Tecnologías como la inteligencia artificial y el aprendizaje automático nos dan el poder de aplicar procesos complejos en todo nuestro Servicio. Las tecnologías automatizadas también nos permiten garantizar la funcionalidad y la integridad de nuestro Servicio.
+	</li>
+	</ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+</body>
+</html>
+
+
